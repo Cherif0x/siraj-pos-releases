@@ -1,0 +1,9 @@
+{
+  "Version": "1.2.0",
+  "DownloadUrl": "https://github.com/Cherif0x/SIRAJE-csharp/releases/latest",
+  "ReleaseNotes": {
+    "ar": "تحديثات وتحسينات عامة في الأداء وإصلاح بعض الأخطاء.",
+    "en": "General performance updates and bug fixes.",
+    "fr": "Mises à jour générales des performances et corrections de bugs."
+  }
+}
