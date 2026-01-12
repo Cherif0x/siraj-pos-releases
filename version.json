@@ -1,6 +1,6 @@
 {
   "Version": "1.2.2",
-  "DownloadUrl": "https://github.com/Cherif0x/siraj-pos-releases/releases/download/v1.2.2/SIRAJE-Setup.exe",
+  "DownloadUrl": "https://github.com/Cherif0x/siraj-pos-releases/releases/download/1.2.2/SIRAJE-Setup.exe",
   "ReleaseNotes": {
     "ar": "تحديث عاجل: تحسينات في واجهة نقطة البيع وإصلاح زر الإضافة.",
     "en": "Hotfix: UI improvements in POS screen and Add button fix.",
