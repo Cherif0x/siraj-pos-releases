@@ -1,9 +1,9 @@
 {
-  "Version": "1.2.1",
-  "DownloadUrl": "https://github.com/Cherif0x/siraj-pos-releases/releases/download/v1.2.1/SIRAJE-Setup.exe",
+  "Version": "1.2.2",
+  "DownloadUrl": "https://github.com/Cherif0x/siraj-pos-releases/releases/download/v1.2.2/SIRAJE-Setup.exe",
   "ReleaseNotes": {
-    "ar": "تحديثات هامة: طباعة مرنة للفواتير، تحسينات في شاشة المشتريات، ونظام تحديث تلقائي محسن.",
-    "en": "Major updates: Flexible invoice printing, Purchase screen enhancements, and improved auto-update system.",
-    "fr": "Mises à jour majeures : Impression flexible des factures, améliorations de l'écran d'achat et système de mise à jour automatique amélioré."
+    "ar": "تحديث عاجل: تحسينات في واجهة نقطة البيع وإصلاح زر الإضافة.",
+    "en": "Hotfix: UI improvements in POS screen and Add button fix.",
+    "fr": "Correctif : Améliorations de l'interface POS et correction du bouton Ajouter."
   }
 }
