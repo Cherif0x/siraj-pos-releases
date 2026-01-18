@@ -2,8 +2,8 @@
   "Version": "1.2.3",
   "DownloadUrl": "https://github.com/Cherif0x/siraj-pos-releases/releases/latest/download/SIRAJE-Setup.exe",
   "ReleaseNotes": {
-    "ar": "تحديثات وتحسينات عامة في الأداء وإصلاح بعض الأخطاء.",
-    "en": "General performance updates and bug fixes.",
-    "fr": "Mises à jour générales des performances et corrections de bugs."
+    "ar": "إصلاح هام: حل مشكلة 'انتهاء الصلاحية' عند إعادة تثبيت البرنامج. إضافة زر 'إعادة المحاولة' في شاشة التفعيل. تحسينات في الاستقرار.",
+    "en": "Critical Fix: Resolved 'License Expired' issue after reinstall. Added 'Retry' button in activation screen. Stability improvements.",
+    "fr": "Correctif critique : Résolution du problème 'Licence expirée' après réinstallation. Ajout du bouton 'Réessayer' dans l'écran d'activation."
   }
 }
