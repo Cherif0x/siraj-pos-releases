@@ -1,9 +1,9 @@
 {
-    "Version": "1.2.3.2",
-    "DownloadUrl": "https://github.com/Cherif0x/siraj-pos-releases/releases/download/v1.2.3.2/SIRAJE-Setup.exe",
+    "Version": "1.2.3.3",
+    "DownloadUrl": "https://github.com/Cherif0x/siraj-pos-releases/releases/download/v1.2.3.3/SIRAJE-Setup.exe",
     "ReleaseNotes": {
-        "ar": "إصلاحات مهمة: تحسين البحث في المنتجات (SKU + Barcode) + تبسيط منطق إلغاء الفواتير الجزئية (40%)",
-        "en": "Important fixes: Enhanced product search (SKU + Barcode) + Simplified partial invoice cancellation logic (40%)",
-        "fr": "Corrections importantes: Recherche de produits améliorée (SKU + Code-barres) + Logique d'annulation de factures partielles simplifiée (40%)"
+        "ar": "إلغاء ميزة الدفع الجزئي - النظام يدعم الآن نقد أو دين فقط (تبسيط محاسبي)",
+        "en": "Removed Partial Payment feature - System now supports Cash or Credit only (accounting simplification)",
+        "fr": "Suppression du paiement partiel - Le système prend désormais en charge uniquement espèces ou crédit (simplification comptable)"
     }
 }
