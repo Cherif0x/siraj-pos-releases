@@ -1,9 +1,9 @@
 {
-  "Version": "1.2.3.1",
-  "DownloadUrl": "https://github.com/Cherif0x/siraj-pos-releases/releases/download/v1.2.3.1/SIRAJE-Setup.exe",
-  "ReleaseNotes": {
-    "ar": "تحديث جديد يتضمن إصلاحات هامة للنسخ الاحتياطي وتحسينات في الأداء.",
-    "en": "New update includes critical backup fixes and performance improvements.",
-    "fr": "Nouvelle mise à jour incluant des correctifs critiques de sauvegarde et des améliorations de performances."
-  }
+    "Version": "1.2.3.2",
+    "DownloadUrl": "https://github.com/Cherif0x/siraj-pos-releases/releases/download/v1.2.3.2/SIRAJE-Setup.exe",
+    "ReleaseNotes": {
+        "ar": "إصلاحات مهمة: تحسين البحث في المنتجات (SKU + Barcode) + تبسيط منطق إلغاء الفواتير الجزئية (40%)",
+        "en": "Important fixes: Enhanced product search (SKU + Barcode) + Simplified partial invoice cancellation logic (40%)",
+        "fr": "Corrections importantes: Recherche de produits améliorée (SKU + Code-barres) + Logique d'annulation de factures partielles simplifiée (40%)"
+    }
 }
