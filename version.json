@@ -3,7 +3,7 @@
     "DownloadUrl": "https://github.com/Cherif0x/siraj-pos-releases/releases/download/v1.2.3.3/SIRAJE-Setup.exe",
     "ReleaseNotes": {
         "ar": "إلغاء ميزة الدفع الجزئي - النظام يدعم الآن نقد أو دين فقط (تبسيط محاسبي)",
-        "en": "Removed Partial Payment feature - System now supports Cash or Credit only (accounting simplification)",
+    
         "fr": "Suppression du paiement partiel - Le système prend désormais en charge uniquement espèces ou crédit (simplification comptable)"
     }
 }
