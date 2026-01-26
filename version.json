@@ -1,8 +1,25 @@
+
+
+Review
 {
-    "Version": "1.2.3.3",
-    "DownloadUrl": "https://github.com/Cherif0x/siraj-pos-releases/releases/download/v1.2.3.3/SIRAJE-Setup.exe",
-    "ReleaseNotes": {
-        "ar": "إلغاء ميزة الدفع الجزئي - النظام يدعم الآن نقد أو دين فقط (تبسيط محاسبي)",
-        "fr": "Suppression du paiement partiel - Le système prend désormais en charge uniquement espèces ou crédit (simplification comptable)"
-    }
-}
+    "version": "1.2.3.4",
+    "releaseDate": "2026-01-26",
+    "downloadUrl": "https://github.com/Cherif0x/SIRAJE-csharp/releases/download/v1.2.3.4/SIRAJE-Setup.exe",
+    "releaseNotes": "إزالة مخلفات الدفع الجزئي وإصلاح إلغاء الفواتير النقدية - v1.2.3.4\n\n✅ التحسينات الرئيسية:\n• إزالة خيار الدفع الجزئي نهائياً من جميع الشاشات\n• إصلاح مشكلة منع إلغاء الفواتير النقدية (تم إزالة قيد 40%)\n• معاملة الفواتير القديمة (Partial) كدين تلقائياً\n• تحسين منطق إلغاء الفواتير حسب نوع الدفع\n\n🔧 التفاصيل التقنية:\n• النظام الآن يدعم فقط نقدي (Cash) ودين (Credit) للفواتير الجديدة\n• الفواتير النقدية يمكن إلغاؤها دائماً (مع تحذير برد المبلغ يدوياً من الصندوق)\n• الفواتير الآجلة تُلغى مع عكس المبلغ المتبقي من رصيد العميل\n• التوافق الكامل مع البيانات القديمة محفوظ\n• لا تغييرات في قاعدة البيانات (Schema)\n\n📝 الملفات المعدلة:\n• TransactionView.xaml - إزالة Partial من واجهة نقطة البيع\n• PaymentDialog.xaml - إزالة Partial من نافذة الدفع\n• PurchasesView.xaml - إزالة Partial من شاشة المشتريات\n• TransactionHistoryView.xaml - تنظيف عرض السجل\n• TransactionRepository.cs - إصلاح منطق CancelTransaction\n\n⚠️ ملاحظة هامة:\nبعد التحديث، يجب إضافة مفتاح Resource يدوياً:\nInfo_RefundCashManually في ملفي Strings.ar.xaml و Strings.fr.xaml",
+    "releaseNotesFr": "Suppression des vestiges de paiement partiel et correction de l'annulation des factures en espèces - v1.2.3.4\n\n✅ Améliorations principales:\n• Suppression définitive de l'option de paiement partiel de tous les écrans\n• Correction du blocage d'annulation des factures en espèces (suppression de la limite de 40%)\n• Traitement automatique des anciennes factures (Partial) comme crédit\n• Amélioration de la logique d'annulation selon le type de paiement\n\n🔧 Détails techniques:\n• Le système ne prend désormais en charge que Espèces (Cash) et Crédit pour les nouvelles factures\n• Les factures en espèces peuvent toujours être annulées (avec avertissement de remboursement manuel depuis la caisse)\n• Les factures à crédit sont annulées avec inversion du montant restant du solde client\n• Compatibilité totale avec les anciennes données préservée\n• Aucun changement dans la base de données (Schema)\n\n📝 Fichiers modifiés:\n• TransactionView.xaml - Suppression de Partial de l'interface POS\n• PaymentDialog.xaml - Suppression de Partial de la fenêtre de paiement\n• PurchasesView.xaml - Suppression de Partial de l'écran d'achats\n• TransactionHistoryView.xaml - Nettoyage de l'affichage de l'historique\n• TransactionRepository.cs - Correction de la logique CancelTransaction\n\n⚠️ Note importante:\nAprès la mise à jour, vous devez ajouter manuellement la clé Resource:\nInfo_RefundCashManually dans les fichiers Strings.ar.xaml et Strings.fr.xaml",
+    "updateType": "recommended",
+    "minVersion": "1.0.0",
+    "fileSize": "~250 MB",
+    "changelog": [
+        {
+            "version": "1.2.3.4",
+            "date": "2026-01-26",
+            "changes": [
+                "Removed Partial payment option from all UI screens",
+                "Fixed Cash invoice cancellation (removed 40% restriction)",
+                "Legacy Partial invoices now treated as Credit automatically",
+                "Improved cancellation logic based on payment type",
+                "Full backward compatibility maintained"
+            ]
+        }
+    ]
